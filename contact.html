@@ -14,9 +14,10 @@
             <div class="collapse" id="navbarToggleExternalContent">
                     <!-- Bg color has been changed to black -->
               <div class="bg-black p-4"> 
-                <h5 class="text-white h4">ABOUT</h5>
-                <h5 class="text-white h4">PORTOFLIO</h5>
-                <h5 class="text-white h4">CONTACT</h5>
+                  <!-- Linked to the other webpages(find out if there's other ways to do this) -->
+                    <h5 class="text-white h4"> <a href="file:///Users/Deep/Documents/UCF/HomeWork/Bootstrap-Portfolio/index.html">ABOUT</a></h5>
+                    <h5 class="text-white h4"> <a href="file:///Users/Deep/Documents/UCF/HomeWork/Bootstrap-Portfolio/portfolio.html">PORTOFLIO</a></h5>
+                    <h5 class="text-white h4"> <a href="file:///Users/Deep/Documents/UCF/HomeWork/Bootstrap-Portfolio/contact.html">CONTACT</a></h5>
                 <span class="text-muted">Deep Parmar</span>
               </div>
             </div>
@@ -28,19 +29,48 @@
             </nav>
           </div>
 
+          <br>
+
+          <!-- <div class="card bg-dark text-white"> -->
+                
+                <!-- <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div> -->
+
           <!-- This is all about the contact form -->
 
           <form>
                 <div class="form-row">
                   <div class="col">
+                      <!-- first name -->
                     <input type="text" class="form-control" placeholder="First name">
                   </div>
+                  <!-- last name -->
                   <div class="col">
                     <input type="text" class="form-control" placeholder="Last name">
                   </div>
                 </div>
-              </form>
+                <!-- this the the email box / also has a warning under it. -->
+                <div class="form-group">
+                        <label for="exampleInputEmail1"></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                    <!-- extra box for users to explain their problem they need help with -->
+                      <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">What can I help you with?</textarea>
+                          </div>
 
+                 <!-- submit button -->
+                 <button type="button" class="btn btn-dark">Submit</button>        
+              </form>
+            
+              <!-- Image under the form -->
+             <img src="1 copy.jpg" class="card-img" alt="silhouette of a sunset">
 
 
 
