@@ -9,3 +9,7 @@ footer {
     border-top: 8px solid #050505;
     height: 50px;
   }
+
+  body {
+    background: #050505;
+}
